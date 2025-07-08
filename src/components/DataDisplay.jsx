@@ -38,8 +38,9 @@ function DataDisplay() {
   return (
     <div>
       <h1>서버로부터 받은 데이터</h1>
-      {/* 받아온 데이터를 예쁘게 출력하기 위해 <pre> 태그 사용 */}
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      {/* 받아온 데이터 출력 */}
+      <h2> data.id : {data.id} </h2>
+      <h2> data.name : {data.name} </h2>
     </div>
   );
 }
